@@ -2,10 +2,14 @@
   "name": "basic-backend",
   "version": "1.0.0",
   "description": "Basic of backend",
-  "main": "server.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
